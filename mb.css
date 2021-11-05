@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px) {
+  .sub-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-container .boxes {
+    margin-top: 1rem;
+  }
+  .sub-container .uniqbox {
+    margin: 2rem;
+  }
+}
