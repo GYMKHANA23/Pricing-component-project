@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+  .sub-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .sub-container .boxes {
+    margin-top: 1rem;
+  }
+  .sub-container .uniqbox {
+    margin: 2rem;
+  }
+  .attribution a {
+    font-size: 14px;
+  }
+  .style-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -10;
+  }
+  .style-bottom {
+    position: absolute;
+    top: 60rem;
+    right: 0;
+    z-index: -10;
+  }
+}
+@media screen and (max-width: 320px) {
+  .sub-container .boxes {
+    margin-left: 2rem;
+  }
+
+  .sub-container .uniqbox {
+    margin-left: 4rem;
+  }
+}
